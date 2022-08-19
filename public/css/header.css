@@ -1,0 +1,45 @@
+.home header{
+    background-color: var(--amarillo);
+    padding: 20px 0;
+    font-size: var(--cuerpo);
+}
+
+.home header .logo ,.home header .searchBar{
+    margin:0 20px;
+}
+
+.home header img{
+    width: 45%;
+}
+
+.home header ul {
+    margin: 0 0 20px;
+}
+
+.home header input{
+    margin-top: 8px;
+    width: 50%;
+    height: 58%;
+}
+
+.home header p{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home header .container{
+    text-align: center;
+}
+
+.home header .menu{
+    border-radius: 5px;
+    background-color: var(--celeste);
+    border-color: var(--celeste);
+
+}
+
+.home header .container i{
+    padding: 10px;
+    font-size: var(---titular);
+    color: var(--grisClaro);   
+}
