@@ -1,6 +1,7 @@
 .home footer{
     text-align: center;
     font-family: var(--Familia);
+    background-color: white;
 }
 
 .home footer i{

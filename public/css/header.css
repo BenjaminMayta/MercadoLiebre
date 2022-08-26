@@ -12,10 +12,6 @@
     width: 45%;
 }
 
-.home header ul {
-    margin: 0 0 20px;
-}
-
 .home header input{
     margin-top: 8px;
     width: 50%;
@@ -25,6 +21,14 @@
 .home header p{
     text-align: center;
     margin: 20px 0;
+}
+
+.home header nav{
+    display: none;
+}
+
+.home header ul {
+    margin: 0 0 20px;
 }
 
 .home header .container{
@@ -42,4 +46,22 @@
     padding: 10px;
     font-size: var(---titular);
     color: var(--grisClaro);   
+}
+
+/* Tablet */
+
+@media(min-width:461px){
+    .home header nav{
+        display: block;
+    }
+
+    .home header .container{
+        display: none;
+    }
+}
+
+/* Desktop */
+
+@media(min-width:769px){
+
 }

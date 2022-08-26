@@ -1,0 +1,78 @@
+.home main{
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home main .banner img{
+    width: 100%;
+}
+
+.home main h2{
+    color: var(--grisOscuro);
+    font-size: var(--titular);
+}
+
+.home main section article{
+    margin-bottom:10px ;
+    background-color: white;
+}
+
+.home main article img{
+    width: 100%;
+}
+
+.home main section article .caja{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.home main section article .caja .camion{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--verde);
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+.home main section article .caja i{
+    color: var(--verde);
+    margin: 8px 5px;
+    font-size: var(--cuerpo);
+}
+
+.home main section article .precios{
+    font-size: var(--precios);
+}
+
+.home main section article .descuentos{
+    color: var(--verde);
+    margin-bottom: 25px;
+    font-size: var(--descuentos);
+}
+
+.home main section article .descripcion{
+    display:none;
+    color: var(--grisOscuro);
+    font-size: var(--descripciones);
+}
+
+
+/* Tablet */
+
+@media(min-width:461px){
+    .home main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }    
+
+    .home main section article .descripcion{
+        display: block;
+    }
+}
+
+/* Desktop */
+
+@media(min-width:769px){
+    
+}
